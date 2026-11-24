@@ -1,0 +1,415 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Pharmacology</title>
+<meta name="theme-color" content="#0f766e"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Pharmacology"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="data:image/png;base64,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"><link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAAShElEQVR4nO2deXBVVZ7Hf79z7n1b3sv2kgBhXxQFRXBHBFkEiYw0tMqiIq2o6PSiXd3VPV093TUz3VPdXW3NjI6t0qCCaIMo9gja4FKCNraouAMSRJB9SQhJ3stb7z1n/jgkBiIhyUnyzkt+nyoKipDkcO8n53x/9ywX8372IyCItsIy3QAiuyGBCC1IIEILEojQggQitCCBCC1IIEILEojQggQitCCBCC1IIEILEojQggQitCCBCC1IIEILEojQggQitCCBCC1IIEILEojQggQitCCBCC1IIEILEojQggQitCCBCC1IIEILEojQggQitCCBCC1IIEILEojQggQitCCBCC1IIEILEojQggQitCCBCC1IIEILEojQggQitCCBCC1IIEILEojQggQitCCBCC2sTDege4CIAAAgpcxwS9obEqhDQEREVMLU/2r8oZN/lOrvs9kqEqg9UXIIIRUNf29Z3OIWACSSyUYfOfkbY+y0f59FkEDtA0OUAA0a9Cgu7lPaY0CfPoWF+XmhkO3hHtsGlHXRZCwei6eStdXRr/cdOHDoSOWJKlcIaCRfhv8nrYQE0kWNVkIIACguLBx1wfDzzzunT2mJzx9kwFxwBLhSCCEEgCwI2wwYAmPAJYh4XbSi6sS2L778ZPv2g4ePSHkyLGVRb4T0zlQdGKKQEgAG9O0zcexVQ4cMCubkpiGVSsRcV6CUElEVuhIRAFBKAaD+IBE5Z7bX68VALF676+v9b779zs7dewCAMaaMNB8SqK0gMkQhRF4oNL1syqgR59u2L56IOI7DEQFZfVJuDikBpBBScs79/pDjpLduLX/59TeOVh7Plq6IBGoLiKhu7ehLLpk8fkzPktJIXaUAYC3z5ltxhUCEYCA/Fq1bv+HtNze90/gbGQtloFajxheGeNMN0yaMGRtzamuixzi3uN6X5YwBQG30hG3bN98wfVD/vitefKkuHjd8OCOBWgdjKITICfjnz77pgvMuqI4eY4ict9tltDh3Xbc6enTUiBHhooKH/7w0Ho83JC0DoamMVsAYE0L2KC5+YOGCYecNrYkc5Zwja+drqIysjR7vVdrjxwsX9CgqElK2fWjsYEigFoGIaigZNvScH9+7oLhHOBKt4lYH9t+c83g0Utqr54J5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">
+<style>:root{--bg:#f6f8fa;--card:#fff;--ink:#0f172a;--mut:#64748b;--p:#0f766e;--p2:#14b8a6;--line:#e2e8f0}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%}
+#app{max-width:760px;margin:0 auto;padding:16px 14px 80px;padding-top:max(16px,env(safe-area-inset-top))}
+a{color:inherit;text-decoration:none}
+.hero{background:linear-gradient(135deg,#0f766e,#0e7490);color:#fff;border-radius:22px;padding:24px 20px;margin-bottom:14px}
+.hero h1{margin:6px 0 4px;font-size:34px}.hero p{margin:0 0 14px;opacity:.92}.pill{display:inline-block;background:rgba(255,255,255,.18);border-radius:99px;padding:3px 12px;font-size:13px}
+.stat{display:flex;gap:10px}.stat div{flex:1;background:rgba(255,255,255,.15);border-radius:14px;padding:8px;text-align:center}.stat b{display:block;font-size:22px}.stat span{font-size:12px;opacity:.9}
+.search input{width:100%;padding:13px 16px;border:1px solid var(--line);border-radius:14px;font-size:16px;background:#fff}
+#res a{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-top:6px}#res small{display:block;color:var(--mut)}.empty{color:var(--mut);font-size:14px}
+.part{background:var(--card);border:1px solid var(--line);border-radius:18px;margin:12px 0;overflow:hidden}
+.part summary{list-style:none;display:flex;gap:12px;align-items:center;padding:14px 16px;cursor:pointer;font-weight:700}.part summary::-webkit-details-marker{display:none}
+.pn{background:var(--p);color:#fff;border-radius:10px;padding:2px 10px;font-size:13px;white-space:nowrap}.pt small{display:block;color:var(--mut);font-weight:400;font-size:13px;direction:rtl;text-align:left}
+.chrow{display:flex;align-items:center;gap:12px;padding:12px 16px;border-top:1px solid var(--line)}.chrow:active{background:#f0fdfa}
+.num{width:30px;height:30px;border-radius:50%;background:#ccfbf1;color:var(--p);display:grid;place-items:center;font-weight:700;font-size:14px;flex:none}
+.nm{flex:1;line-height:1.35}.nm small{display:block;color:var(--mut);font-size:12px}.go{color:var(--p);font-size:24px}.ck{color:#16a34a;font-weight:800}.tag{font-size:11px;background:#f1f5f9;color:var(--mut);padding:2px 8px;border-radius:99px}
+.soon .num{background:#f1f5f9;color:var(--mut)}.soon .nm{color:#475569}
+.note{font-size:13px;color:var(--mut);margin-top:22px}
+.back{display:inline-block;margin:4px 0 8px;color:var(--p);font-weight:600}
+.chead span{color:var(--mut);font-size:13px}.chead h1{margin:2px 0 10px;font-size:28px;line-height:1.2}
+.lead{font-size:17px;background:#ecfeff;border-left:4px solid var(--p2);padding:12px 14px;border-radius:10px}
+h2{font-size:21px;margin:26px 0 8px;color:#0f766e}p{margin:10px 0}
+figure{margin:16px 0;background:#fff;border:1px solid var(--line);border-radius:16px;padding:10px}figure{overflow-x:auto}figure svg{width:100%;min-width:500px;height:auto;display:block}figcaption{text-align:center;color:var(--mut);font-size:13px;margin-top:4px}
+.box{border-radius:14px;padding:12px 14px;margin:14px 0}.box b{display:block;margin-bottom:2px}
+.tip{background:#eff6ff;border:1px solid #bfdbfe}.mn{background:#fffbeb;border:1px solid #fde68a}.ar{background:#f5f3ff;border:1px solid #ddd6fe;font-size:17px;line-height:1.9}
+.tw{overflow-x:auto;margin:12px 0;border:1px solid var(--line);border-radius:14px;background:#fff}table{border-collapse:collapse;width:100%;font-size:14px}th{background:#f0fdfa;color:var(--p);text-align:left}th,td{padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}tr:last-child td{border:0}
+.drugs{display:grid;gap:10px;margin:12px 0}.drug{background:#fff;border:1px solid var(--line);border-left:5px solid var(--p2);border-radius:14px;padding:10px 14px}
+.dn{font-weight:700;font-size:16px;color:var(--p)}.dc{display:inline-block;background:#f0fdfa;color:#115e59;font-size:12px;border-radius:99px;padding:1px 10px;margin:3px 0}.du{font-size:14px}.dx{font-size:13px;color:var(--mut)}
+.qh{margin-top:34px}.q{background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px;margin:10px 0}.q p{margin:0 0 8px}
+.q button{display:block;width:100%;text-align:left;padding:10px 12px;margin:6px 0;border:1px solid var(--line);background:#f8fafc;border-radius:10px;font-size:15px;color:var(--ink)}
+.q button.ok{background:#dcfce7;border-color:#16a34a}.q button.bad{background:#fee2e2;border-color:#dc2626}.ex{font-size:14px;color:#334155;margin-top:4px}
+.score{font-weight:700;color:var(--p);margin:8px 2px}
+.donebtn{display:block;width:100%;margin-top:18px;padding:14px;border-radius:14px;border:0;background:var(--p);color:#fff;font-size:16px;font-weight:700}.donebtn.on{background:#16a34a}
+.navrow{display:flex;justify-content:space-between;margin-top:18px}.nav{background:#fff;border:1px solid var(--line);padding:10px 16px;border-radius:12px;font-weight:600;color:var(--p)}
+.soonbox{text-align:center;background:#fff;border:1px dashed #94a3b8;border-radius:18px;padding:28px 18px;margin-top:10px}.big{font-size:44px}
+@media(min-width:700px){td::before{content:none}}
+</style></head><body><div id="app"></div><script>// ---------- helpers for diagrams ----------
+const C={teal:'#0f766e',blue:'#2563eb',red:'#dc2626',amber:'#d97706',purple:'#7c3aed',green:'#16a34a',gray:'#64748b',ink:'#0f172a'};
+function box(x,y,w,h,t,c,sub){return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="12" fill="${c}" opacity=".12" stroke="${c}" stroke-width="2"/><text x="${x+w/2}" y="${y+h/2+(sub?-4:5)}" text-anchor="middle" font-size="15" font-weight="700" fill="${c}">${t}</text>${sub?`<text x="${x+w/2}" y="${y+h/2+14}" text-anchor="middle" font-size="11" fill="${C.gray}">${sub}</text>`:''}`}
+function arrow(x1,y1,x2,y2,c){c=c||C.gray;return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${c}" stroke-width="2.5" marker-end="url(#ah)"/>`}
+function svg(w,h,inner){return `<svg viewBox="0 0 ${w} ${h}" role="img" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,sans-serif"><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#64748b"/></marker></defs>${inner}</svg>`}
+function txt(x,y,t,o){o=o||{};return `<text x="${x}" y="${y}" text-anchor="${o.a||'middle'}" font-size="${o.s||12}" font-weight="${o.w||400}" fill="${o.c||C.ink}">${t}</text>`}
+
+// ---------- diagrams ----------
+const D={};
+D.adme=svg(640,170,
+ box(10,55,100,60,'Drug dose',C.gray,'pill / injection')+arrow(110,85,140,85)+
+ box(140,55,110,60,'Absorption',C.blue,'enters blood')+arrow(250,85,280,85)+
+ box(280,55,110,60,'Distribution',C.teal,'to tissues')+arrow(390,85,420,85)+
+ box(420,55,100,60,'Metabolism',C.amber,'mostly liver')+arrow(520,85,545,85)+
+ box(545,55,85,60,'Excretion',C.red,'kidney, bile')+
+ txt(195,38,'A',{s:22,w:800,c:C.blue})+txt(335,38,'D',{s:22,w:800,c:C.teal})+txt(470,38,'M',{s:22,w:800,c:C.amber})+txt(587,38,'E',{s:22,w:800,c:C.red})+
+ txt(320,150,'Pharmacokinetics = what the BODY does to the DRUG',{s:14,w:700}));
+D.curve=svg(560,300,
+ `<line x1="60" y1="250" x2="530" y2="250" stroke="#94a3b8" stroke-width="2"/><line x1="60" y1="250" x2="60" y2="30" stroke="#94a3b8" stroke-width="2"/>`+
+ `<path d="M60 250 C100 80 140 50 170 50 C260 55 360 150 520 225" fill="none" stroke="${C.teal}" stroke-width="4"/>`+
+ `<line x1="60" y1="50" x2="170" y2="50" stroke="${C.red}" stroke-dasharray="5 4"/><circle cx="170" cy="50" r="6" fill="${C.red}"/>`+
+ txt(190,40,'Cmax (peak)',{a:'start',c:C.red,w:700})+
+ `<line x1="60" y1="200" x2="530" y2="200" stroke="${C.amber}" stroke-dasharray="6 4"/>`+txt(535,196,'MEC',{a:'end',c:C.amber,w:700})+
+ txt(300,290,'Time',{w:700})+`<text transform="translate(18,150) rotate(-90)" text-anchor="middle" font-size="12" font-weight="700">Plasma concentration</text>`+
+ txt(170,270,'Tmax',{c:C.red})+txt(120,175,'Onset',{c:C.gray})+txt(430,120,'Elimination phase',{c:C.teal,w:700})+
+ txt(430,215,'Below MEC: no effect',{c:C.amber,s:11}));
+D.half=svg(560,210,
+ [100,50,25,12.5,6.25].map((v,i)=>`<rect x="${50+i*100}" y="${180-v*1.6}" width="70" height="${v*1.6}" rx="6" fill="${C.teal}" opacity="${1-i*.15}"/>${txt(85+i*100,172-v*1.6,v+'%',{w:700})}${txt(85+i*100,200,i+' t½',{c:C.gray})}`).join('')+
+ txt(280,22,'Each half-life removes half of what is left',{w:700,s:14}));
+D.receptor=svg(600,200,
+ `<path d="M60 150 V118 H150 V98 H200 V118 H290 V150 Z" fill="${C.gray}" opacity=".35" stroke="${C.gray}" stroke-width="2"/>`+txt(175,168,'Receptor',{c:C.gray,w:700})+
+ `<rect x="150" y="62" width="50" height="22" rx="4" fill="${C.green}"/>`+txt(175,78,'Agonist',{c:'#fff',w:700,s:11})+arrow(175,86,175,96,C.green)+txt(175,40,'fits and activates',{c:C.green,w:700})+
+ `<path d="M340 150 V118 H430 V98 H480 V118 H570 V150 Z" fill="${C.gray}" opacity=".35" stroke="${C.gray}" stroke-width="2"/>`+txt(455,168,'Receptor',{c:C.gray,w:700})+
+ `<rect x="430" y="98" width="50" height="22" rx="4" fill="${C.red}"/>`+txt(455,113,'Antag.',{c:'#fff',w:700,s:11})+txt(455,78,'fits, blocks, no effect',{c:C.red,w:700})+
+ txt(300,192,'Lock and key: the drug is the key, the receptor is the lock',{s:13,w:600}));
+D.dose=svg(560,300,
+ `<line x1="60" y1="250" x2="530" y2="250" stroke="#94a3b8" stroke-width="2"/><line x1="60" y1="250" x2="60" y2="30" stroke="#94a3b8" stroke-width="2"/>`+
+ `<path d="M60 248 C150 240 190 190 240 100 C270 55 330 48 520 46" fill="none" stroke="${C.green}" stroke-width="4"/>`+
+ `<path d="M60 248 C200 245 290 215 340 150 C380 115 430 110 520 108" fill="none" stroke="${C.blue}" stroke-width="4"/>`+
+ `<path d="M60 248 C250 246 380 235 440 200 C480 170 510 150 525 145" fill="none" stroke="${C.red}" stroke-width="4" stroke-dasharray="7 5"/>`+
+ txt(300,40,'Full agonist (high efficacy, potent)',{c:C.green,w:700,a:'start',s:12}).replace('x="300"','x="290"')+
+ txt(535,100,'Partial agonist',{c:C.blue,w:700,a:'end'})+txt(535,170,'Agonist + competitive antagonist',{c:C.red,w:700,a:'end',s:11}).replace('y="170"','y="138"')+
+ txt(300,285,'log dose',{w:700})+`<text transform="translate(18,150) rotate(-90)" text-anchor="middle" font-size="12" font-weight="700">Response</text>`);
+D.ans=svg(640,300,
+ txt(320,22,'Autonomic nervous system: two-neuron chain',{w:700,s:15})+
+ txt(10,70,'Parasympathetic',{a:'start',c:C.blue,w:800,s:13})+
+ box(110,48,70,40,'CNS',C.gray)+`<line x1="180" y1="68" x2="290" y2="68" stroke="${C.blue}" stroke-width="5"/>`+txt(235,60,'long pre',{s:10,c:C.blue})+
+ `<circle cx="300" cy="68" r="14" fill="${C.blue}"/>`+txt(300,92,'ACh (Nn)',{s:10,c:C.blue,w:700})+`<line x1="314" y1="68" x2="360" y2="68" stroke="${C.blue}" stroke-width="2"/>`+txt(337,60,'short post',{s:10,c:C.blue})+
+ box(360,48,120,40,'Organ',C.blue)+txt(540,62,'ACh at',{s:11,c:C.blue})+txt(540,76,'muscarinic (M)',{s:11,c:C.blue,w:700})+
+ txt(10,170,'Sympathetic',{a:'start',c:C.red,w:800,s:13})+
+ box(110,148,70,40,'CNS',C.gray)+`<line x1="180" y1="168" x2="230" y2="168" stroke="${C.red}" stroke-width="2"/>`+txt(205,160,'short pre',{s:10,c:C.red})+
+ `<circle cx="240" cy="168" r="14" fill="${C.red}"/>`+txt(240,192,'ACh (Nn)',{s:10,c:C.red,w:700})+`<line x1="254" y1="168" x2="360" y2="168" stroke="${C.red}" stroke-width="5"/>`+txt(310,160,'long post',{s:10,c:C.red})+
+ box(360,148,120,40,'Organ',C.red)+txt(540,162,'NE at',{s:11,c:C.red})+txt(540,176,'α and β receptors',{s:11,c:C.red,w:700})+
+ txt(320,240,'Exceptions: sweat glands (ACh, muscarinic), adrenal medulla (ACh, nicotinic)',{s:12,c:C.gray})+
+ txt(320,262,'Memory trick: Parasympathetic = Post is Puny (short). Sympathetic = Short pre.',{s:12,c:C.gray,w:600}));
+D.syn=svg(640,260,
+ box(20,30,230,200,'',C.teal)+txt(135,50,'Cholinergic nerve ending',{c:C.teal,w:700})+
+ txt(135,85,'Choline + Acetyl-CoA',{s:12})+arrow(135,92,135,112)+txt(135,128,'ChAT → ACh',{w:700,c:C.teal})+arrow(135,136,135,156)+
+ `<circle cx="100" cy="180" r="14" fill="${C.teal}" opacity=".7"/><circle cx="135" cy="188" r="14" fill="${C.teal}" opacity=".7"/><circle cx="170" cy="180" r="14" fill="${C.teal}" opacity=".7"/>`+txt(135,222,'vesicles (release needs Ca²⁺)',{s:11,c:C.gray})+
+ arrow(250,180,350,180,C.teal)+txt(300,170,'ACh',{c:C.teal,w:700})+
+ box(350,60,120,60,'AChE',C.amber,'breaks ACh down')+`<path d="M410 120 V170" stroke="${C.amber}" stroke-width="2.5" marker-end="url(#ah)"/>`+txt(410,150,'→ choline + acetate',{s:10,a:'start'}).replace('x="410"','x="418"')+
+ box(490,120,130,110,'Receptor',C.blue,'M or N on target')+arrow(350,190,490,190,C.blue)+
+ txt(410,35,'Anticholinesterases block this enzyme',{s:11,c:C.amber,w:700})+txt(470,252,'Agonists (e.g. pilocarpine) mimic ACh',{s:11,c:C.blue,w:700}));
+D.dopa=svg(640,180,
+ box(10,60,100,50,'Tyrosine',C.gray)+arrow(110,85,140,85)+box(140,60,90,50,'DOPA',C.gray)+arrow(230,85,260,85)+
+ box(260,60,110,50,'Dopamine',C.purple)+arrow(370,85,400,85)+box(400,60,110,50,'Norepi',C.red)+arrow(510,85,535,85)+box(535,60,95,50,'Epi',C.amber)+
+ txt(125,52,'tyrosine hydroxylase',{s:10,c:C.red,w:700})+txt(125,40,'(rate-limiting)',{s:10,c:C.red})+txt(455,135,'(adrenal medulla)',{s:10,c:C.gray}).replace('x="455"','x="582"')+
+ txt(320,165,'Catecholamine synthesis',{w:700,s:14}));
+D.dosedopa=svg(560,200,
+ [['Low dose','D1 → renal vasodilation',C.green,1],['Medium dose','β1 → heart ↑',C.blue,2],['High dose','α1 → vasoconstriction',C.red,3]].map((r,i)=>`<rect x="${40+i*170}" y="${150-r[3]*30}" width="150" height="${r[3]*30}" rx="8" fill="${r[2]}" opacity=".85"/>${txt(115+i*170,170,r[0],{w:700})}${txt(115+i*170,144-r[3]*30,r[1],{s:11})}`).join('')+
+ txt(280,20,'Dopamine: effect changes with dose',{w:700,s:14}));
+D.bb=svg(600,170,
+ box(10,40,270,70,'β1-selective',C.blue,'A to M: Atenolol, Bisoprolol, Esmolol, Metoprolol')+
+ box(320,40,270,70,'Non-selective',C.red,'N to Z: Nadolol, Pindolol, Propranolol, Timolol')+
+ txt(300,145,'Extra: carvedilol and labetalol also block α1',{s:12,c:C.gray}));
+
+// ---------- chapters ----------
+const PARTS=[
+ {n:'I',t:'Introduction to pharmacology',ar:'مدخل إلى الفارماكولوجيا'},
+ {n:'II',t:'Drugs acting on the autonomic nervous system',ar:'الأدوية المؤثرة في الجملة العصبية الذاتية'},
+ {n:'III',t:'Drugs acting on the central nervous system',ar:'الأدوية المؤثرة في الجملة العصبية المركزية'},
+ {n:'IV',t:'Drugs acting on the cardiovascular system and blood',ar:'الأدوية المؤثرة في الجملة القلبية الوعائية'},
+ {n:'V',t:'Drugs acting on the endocrine system',ar:'الأدوية المؤثرة في الجهاز الصماوي'},
+ {n:'VI',t:'Drugs acting on other organ systems',ar:'الأدوية المؤثرة في الأجهزة العضوية الأخرى'},
+ {n:'VII',t:'Chemotherapy',ar:'أدوية المعالجة الكيميائية'},
+ {n:'VIII',t:'Anti-inflammatory and immune drugs',ar:'الأدوية المضادة للالتهاب والأدوية الذاتية'}];
+const TOC=[
+ [1,0,'Pharmacokinetics (drug movement)',1],[2,0,'Pharmacodynamics (drug-receptor interactions)',25],
+ [3,1,'Introduction to the autonomic nervous system',35],[4,1,'Cholinergic agonists',43],[5,1,'Cholinergic antagonists',55],[6,1,'Adrenergic agonists',65],[7,1,'Adrenergic antagonists',83],
+ [8,2,'Treatment of neurodegenerative disease',93],[9,2,'Anxiolytics and hypnotics',105],[10,2,'CNS stimulants',117],[11,2,'Opioids (narcotics)',127],[12,2,'Antidepressants',141],[13,2,'Antipsychotics',151],[14,2,'Antiepileptic drugs',159],[15,2,'Seizures',171],
+ [16,3,'Treatment of heart failure',183],[17,3,'Antiarrhythmic drugs',197],[18,3,'Antianginal drugs',209],[19,3,'Antihypertensive drugs',213],[20,3,'Drugs acting on blood',229],[21,3,'Lipid-lowering drugs',249],[22,3,'Diuretics',261],
+ [23,4,'Pituitary and thyroid hormones',275],[24,4,'Insulin and antidiabetic drugs',285],[25,4,'Estrogens and androgens',299],[26,4,'Adrenocortical steroid hormones',311],
+ [27,5,'Drugs for the respiratory system',319],[28,5,'Gastrointestinal and antiemetic drugs',329],[29,5,'Other therapies',341],
+ [30,6,'Principles of antimicrobial therapy',347],[31,6,'Cell wall synthesis inhibitors',359],[32,6,'Protein synthesis inhibitors',373],[33,6,'Quinolones, folate antagonists, urinary antiseptics',387],[34,6,'Antituberculosis drugs',399],[35,6,'Antifungal drugs',407],[36,6,'Antiprotozoal drugs',416],[37,6,'Antiparasitic and antihelminthic drugs',431],[38,6,'Antiviral drugs',437],[39,6,'Anticancer drugs',457],[40,6,'Immunosuppressants',489],
+ [41,7,'Anti-inflammatory and autacoid drugs',499],[42,7,'Antihistamines and their antagonists',519],[43,7,'Toxicology (poisons)',529]];
+// NOTE: english titles for chapters 8-43 are provisional translations of the Arabic table of contents
+const CH={};
+CH[1]={intro:'Pharmacokinetics is the story of a drug\'s journey: how it gets in, where it goes, how the body changes it and how it leaves. Think of a parcel delivery: pickup, route, repackaging, and drop-off out of the system.',
+blocks:[
+['svg','adme','The four steps of ADME'],
+['h','1. Absorption: getting into the blood'],
+['p','Routes decide speed and amount. <b>Bioavailability (F)</b> is the fraction of the dose that reaches the systemic circulation unchanged. IV = 100% by definition.'],
+['table',['Route','Key points','Examples'],[
+ ['Oral','Most convenient; affected by food, pH, <b>first-pass metabolism</b>','Amoxicillin tablets, metformin'],
+ ['Intravenous (IV)','100% bioavailable, fastest, no absorption step','Vancomycin, heparin infusion'],
+ ['Intramuscular (IM)','Fairly fast; depot injections last long','Ceftriaxone, haloperidol decanoate'],
+ ['Subcutaneous (SC)','Slower, steady; good for peptides','Insulin, enoxaparin'],
+ ['Sublingual','Skips first-pass; very rapid','Nitroglycerin'],
+ ['Transdermal','Slow, steady plasma level over days','Nicotine patch, fentanyl patch'],
+ ['Inhalation','Fast to lungs; small systemic dose','Salbutamol, budesonide'],
+ ['Rectal','Partial first-pass bypass; useful if vomiting','Diazepam gel, paracetamol suppository']]],
+['p','<b>First-pass effect:</b> after oral dosing, blood from the gut goes to the liver first, which can destroy part of the dose before it reaches the body. High first-pass drugs: <b>propranolol, lidocaine, morphine, nitroglycerin</b>. That is why nitroglycerin is given under the tongue.'],
+['h','Crossing membranes'],
+['p','Most drugs cross by <b>passive diffusion</b> (high to low concentration, lipid-soluble and unionised form crosses best). Other mechanisms: facilitated diffusion, <b>active transport</b> (needs energy, e.g. P-glycoprotein pumps), and endocytosis.'],
+['p','<b>Weak acids</b> (aspirin, phenobarbital) are unionised, and absorbed, in acidic stomach fluid. <b>Weak bases</b> (amphetamine, morphine) are better absorbed in the intestine. In overdose, changing urine pH traps the drug in urine: alkalinise urine with sodium bicarbonate for aspirin or phenobarbital.'],
+['ar','ملحوظة: الدواء بيعدي الأغشية وهو في الصورة غير المتأينة. الحمض الضعيف بيتأين في الوسط القلوي، فبنقلّل البول حمضية لإخراج الأسبرين بسرعة.'],
+['h','2. Distribution: where the drug goes'],
+['p','<b>Volume of distribution (Vd)</b> = dose ÷ initial plasma concentration. It is an apparent volume, not a real one. A big Vd (chloroquine, digoxin) means the drug leaves blood for tissues. A small Vd (warfarin, heparin) means it stays in plasma, mostly protein-bound.'],
+['p','Only the <b>free</b> (unbound) drug is active. Warfarin is about 99% bound to albumin, so a displacing drug can suddenly raise the free fraction. The <b>blood-brain barrier</b> lets in lipid-soluble drugs only; inflamed meninges let in more antibiotic.'],
+['h','3. Metabolism: changing the drug'],
+['p','Mainly in the liver. <b>Phase I</b> (oxidation, reduction, hydrolysis, via <b>cytochrome P450</b>) makes a drug slightly more polar. <b>Phase II</b> (conjugation: glucuronidation, sulfation, acetylation) makes it water-soluble for excretion. A <b>prodrug</b> needs metabolism to become active (e.g. codeine to morphine, enalapril to enalaprilat).'],
+['drugs',[
+ ['Rifampicin, carbamazepine, phenytoin, phenobarbital, St John\'s wort','CYP450 INDUCERS','Faster metabolism of other drugs','Can fail warfarin, OCPs, many others'],
+ ['Cimetidine, ketoconazole, erythromycin, clarithromycin, ciprofloxacin, ritonavir, grapefruit juice','CYP450 INHIBITORS','Slower metabolism of other drugs','Can cause toxicity of warfarin, statins, theophylline']]],
+['mn','Inducers: <b>CRAP GPS</b> (Carbamazepine, Rifampin, Alcohol chronic, Phenytoin, Griseofulvin, Phenobarbital, St John\'s wort). Inhibitors: <b>SICKFACES.COM</b> (Sodium valproate, Isoniazid, Cimetidine, Ketoconazole, Fluconazole, Alcohol acute, Chloramphenicol, Erythromycin, Sulfonamides, Ciprofloxacin, Omeprazole, Metronidazole).'],
+['h','4. Excretion: leaving the body'],
+['p','Mostly <b>renal</b> (filtration, active secretion, reabsorption), also bile, breath, sweat and milk. <b>Clearance (CL)</b> is the volume of plasma cleared per unit time. In kidney disease, doses of renally cleared drugs (gentamicin, vancomycin, digoxin) must be reduced.'],
+['svg','curve','Plasma level after an oral dose'],
+['p','<b>Half-life</b> t½ = 0.693 × Vd ÷ CL. After about <b>4 to 5 half-lives</b> a drug is nearly gone, and with repeated dosing it reaches <b>steady state</b> in the same time. A <b>loading dose</b> gets there faster (depends on Vd); a <b>maintenance dose</b> keeps it there (depends on CL).'],
+['svg','half','Half-life: first-order elimination'],
+['p','<b>First-order</b> kinetics: a constant fraction is removed per hour (most drugs). <b>Zero-order</b>: a constant amount per hour because enzymes are saturated. Remember <b>PEA</b>: Phenytoin, Ethanol, Aspirin (high dose).'],
+['tip','Therapeutic drug monitoring is used for narrow-window drugs: digoxin, lithium, aminoglycosides, vancomycin, phenytoin, theophylline.'],
+['ar','ملحوظة: نصف العمر الحيوي (t½) هو الوقت اللازم لنقص تركيز الدواء للنصف. بعد 4-5 نصف عمر يصل الدواء لحالة الاستقرار أو يختفي تقريباً.']],
+q:[
+['Which route avoids first-pass metabolism?',['Oral','Sublingual','None of them','Gastric tube'],1,'The sublingual route drains into the systemic veins, not the portal vein.'],
+['A drug has a very large volume of distribution. What does that mean?',['It stays in plasma','It is concentrated in tissues','It is cleared quickly','It is always protein bound'],1,'A large apparent Vd means the drug leaves plasma and sits in tissues.'],
+['How many half-lives are needed to reach steady state (roughly)?',['1','2','4 to 5','10'],2,'About 94 to 97% of steady state is reached after 4 to 5 half-lives.'],
+['Which drug is a CYP450 inducer?',['Cimetidine','Ketoconazole','Rifampicin','Ciprofloxacin'],2,'Rifampicin induces CYP450 and lowers levels of many other drugs.'],
+['Which drugs follow zero-order kinetics at high dose?',['Penicillin and amoxicillin','Phenytoin, ethanol, aspirin','Atenolol','Digoxin'],1,'PEA: Phenytoin, Ethanol, Aspirin.']]};
+
+CH[2]={intro:'Pharmacodynamics is what the drug does to the body: how it binds a target, what happens next and how strong the effect is. If pharmacokinetics is the journey, pharmacodynamics is what the drug does on arrival.',
+blocks:[
+['svg','receptor','Agonist versus antagonist'],
+['h','Types of drug action at receptors'],
+['table',['Type','What it does','Example'],[
+ ['Full agonist','Binds and gives maximal response','Morphine at mu receptors'],
+ ['Partial agonist','Binds, gives a smaller maximal response; can block full agonists','Buprenorphine'],
+ ['Competitive antagonist','Reversible; more agonist can overcome it (shifts curve right)','Naloxone vs morphine, atropine vs ACh'],
+ ['Non-competitive / irreversible antagonist','Cannot be overcome; lowers the maximum','Phenoxybenzamine'],
+ ['Inverse agonist','Lowers activity below the baseline','Some antihistamines (H1)'],
+ ['Physiological antagonist','Different receptors, opposite effects','Adrenaline vs histamine in anaphylaxis']]],
+['svg','dose','Dose-response curves'],
+['h','Potency and efficacy'],
+['p','<b>Potency</b> is how much drug is needed (position of the curve, EC50). <b>Efficacy</b> is the maximal effect (height of the curve). A drug can be less potent but just as efficacious, and efficacy matters more clinically.'],
+['p','<b>Therapeutic index</b> = TD50 ÷ ED50 (or LD50 ÷ ED50). A narrow index means a small gap between effective and toxic dose: warfarin, digoxin, lithium, phenytoin, theophylline, aminoglycosides.'],
+['h','Receptor families'],
+['table',['Family','Speed','Examples'],[
+ ['Ligand-gated ion channels','Milliseconds','Nicotinic (N), GABA-A, NMDA'],
+ ['G-protein coupled receptors','Seconds','Muscarinic, adrenergic, opioid'],
+ ['Enzyme-linked receptors','Minutes','Insulin (tyrosine kinase)'],
+ ['Intracellular receptors','Hours to days','Steroids, thyroid hormone']]],
+['mn','G-proteins: <b>Gs</b> raises cAMP (β1, β2, D1), <b>Gi</b> lowers cAMP (α2, M2, D2), <b>Gq</b> raises IP3/DAG/Ca²⁺ (α1, M1, M3). "Q-sin" = Gq: α1, M1, M3, H1.'],
+['h','Changes in response over time'],
+['p','<b>Tolerance</b> develops over days to weeks (opioids, nitrates). <b>Tachyphylaxis</b> is a rapid fall in response after repeated doses (ephedrine). <b>Up-regulation</b> of receptors follows chronic blockade (β-blocker withdrawal gives rebound), and down-regulation follows chronic stimulation.'],
+['ar','ملحوظة: القوة (potency) = كمية الدواء المطلوبة. الفعالية (efficacy) = أقصى تأثير. المضاد التنافسي ممكن نتغلب عليه بزيادة الجرعة، لكن غير التنافسي لا.']],
+q:[
+['Which agent lowers the maximum response and cannot be overcome by more agonist?',['Competitive antagonist','Non-competitive antagonist','Partial agonist','Full agonist'],1,'Non-competitive antagonists reduce Emax.'],
+['A narrow therapeutic index drug is:',['Penicillin','Digoxin','Amoxicillin','Paracetamol at normal dose'],1,'Digoxin has a very small gap between therapeutic and toxic levels.'],
+['Gq coupled receptors raise:',['cAMP','IP3 and DAG','cGMP','Nothing'],1,'Gq activates phospholipase C, producing IP3 and DAG.'],
+['Naloxone reversing morphine is an example of:',['Physiological antagonism','Competitive antagonism','Synergism','Tachyphylaxis'],1,'Naloxone competes at the same opioid receptor.'],
+['Which has the slowest onset?',['Ion channel','GPCR','Enzyme-linked receptor','Intracellular (steroid) receptor'],3,'Steroid receptors change gene transcription, taking hours to days.']]};
+
+CH[3]={intro:'The autonomic nervous system (ANS) runs the body without you thinking: heart rate, pupils, digestion, bladder. Two teams pull in opposite directions: sympathetic (fight or flight) and parasympathetic (rest and digest).',
+blocks:[
+['svg','ans','Pre- and postganglionic neurons'],
+['h','Neurotransmitters'],
+['p','<b>Acetylcholine (ACh)</b> acts at all ganglia, at parasympathetic targets and at the neuromuscular junction (somatic). <b>Norepinephrine (NE)</b> acts at most sympathetic targets. The adrenal medulla releases mostly <b>epinephrine</b> into blood.'],
+['h','Receptors and what they do'],
+['table',['Receptor','Where','Effect when stimulated'],[
+ ['Nicotinic N(N)','Ganglia','Ganglionic transmission'],
+ ['Nicotinic N(M)','Skeletal muscle','Contraction'],
+ ['M1','CNS, gastric parietal cells','Cognition, acid secretion'],
+ ['M2','Heart','Slower heart rate'],
+ ['M3','Smooth muscle, glands, eye','Contraction, secretion, miosis, bronchoconstriction'],
+ ['α1','Vessels, eye (dilator), prostate','Vasoconstriction, mydriasis, urinary sphincter contraction'],
+ ['α2','Presynaptic nerve terminals','Less NE released (negative feedback)'],
+ ['β1','Heart, kidney (JG cells)','Faster rate, stronger contraction, renin release'],
+ ['β2','Bronchi, skeletal muscle vessels, uterus','Bronchodilation, vasodilation, uterine relaxation'],
+ ['β3','Fat, bladder','Lipolysis, bladder relaxation'],
+ ['D1','Renal vessels','Vasodilation']]],
+['mn','Parasympathetic overload = <b>SLUDGE</b>: Salivation, Lacrimation, Urination, Defecation, GI upset, Emesis. Sympathetic = <b>fight, flight, fright and sex</b> (E for emission).'],
+['tip','Drugs work by changing one of five steps: synthesis, storage, release, receptor action, or breakdown or reuptake of the transmitter. The next chapters follow this logic.'],
+['ar','ملحوظة: الباراسمبثاوي ألياف ما قبل العقدة طويلة وبعدها قصيرة، والسمبثاوي العكس. الأستيل كولين هو الناقل في كل العقد العصبية.']],
+q:[
+['Which neurotransmitter acts at all autonomic ganglia?',['Norepinephrine','Acetylcholine','Dopamine','Serotonin'],1,'ACh acts on Nn receptors in both sympathetic and parasympathetic ganglia.'],
+['Stimulation of M3 receptors causes:',['Bronchodilation','Mydriasis','Bronchoconstriction and secretions','Tachycardia'],2,'M3: smooth muscle contraction and gland secretion.'],
+['Which receptor causes bronchodilation?',['α1','β1','β2','M3'],2,'β2 agonists such as salbutamol relax bronchial smooth muscle.'],
+['Sweat glands in the sympathetic system use:',['NE on α1','ACh on muscarinic','Epinephrine','Dopamine'],1,'An exception: sympathetic cholinergic fibres.'],
+['Presynaptic α2 stimulation leads to:',['More NE release','Less NE release','Heart rate increase','Bronchodilation'],1,'α2 is a negative feedback brake on NE release.']]};
+
+CH[4]={intro:'Cholinergic agonists mimic acetylcholine. Some bind the receptor directly. Others block acetylcholinesterase (AChE) so ACh builds up.',
+blocks:[
+['svg','syn','The cholinergic synapse'],
+['h','Direct-acting agonists'],
+['drugs',[
+ ['Bethanechol','Muscarinic agonist','Urinary retention (post-op, neurogenic bladder), GI atony','Not broken down by AChE; no nicotinic effect'],
+ ['Pilocarpine','Muscarinic agonist','Glaucoma (miosis), dry mouth (Sjögren\'s)','Tertiary amine; sweating is a common effect'],
+ ['Cevimeline','Muscarinic agonist','Dry mouth (Sjögren\'s)','Similar to pilocarpine'],
+ ['Carbachol','Muscarinic + nicotinic','Miosis in eye surgery, glaucoma','Rarely used systemically'],
+ ['Methacholine','Muscarinic agonist','Bronchial challenge test for asthma','Diagnostic only'],
+ ['Acetylcholine','Endogenous','Rarely used','Destroyed very quickly by AChE']]],
+['h','Indirect-acting: cholinesterase inhibitors'],
+['drugs',[
+ ['Neostigmine','Reversible AChE inhibitor','Myasthenia gravis, post-op ileus, reversal of non-depolarising blockers','Quaternary: no CNS entry'],
+ ['Pyridostigmine','Reversible AChE inhibitor','Myasthenia gravis (long-term)','Quaternary'],
+ ['Edrophonium','Reversible, very short','Diagnosing myasthenia gravis (Tensilon test)','Lasts minutes'],
+ ['Physostigmine','Reversible, tertiary','Anticholinergic (atropine) toxicity','Crosses the blood-brain barrier'],
+ ['Donepezil, rivastigmine, galantamine','Central AChE inhibitors','Alzheimer\'s disease','Nausea, bradycardia'],
+ ['Echothiophate','Irreversible','Glaucoma (rare)','Organophosphate'],
+ ['Malathion, parathion, sarin','Irreversible organophosphates','Insecticides, nerve agents (poisons)','Cause cholinergic crisis']]],
+['h','Organophosphate poisoning'],
+['p','Signs: SLUDGE, miosis, bradycardia, bronchospasm, muscle twitching and weakness. Treatment: <b>atropine</b> (blocks muscarinic effects) plus <b>pralidoxime</b> (reactivates AChE, only before the enzyme "ages"), plus supportive care and decontamination.'],
+['p','<b>Cautions</b> for all cholinergic agonists: asthma, peptic ulcer, bradycardia or heart block, hyperthyroidism, and mechanical GI or urinary obstruction.'],
+['ar','ملحوظة: التسمم بالمبيدات الفوسفورية = أتروبين + براليدوكسيم. الأتروبين يعالج الأعراض المسكارينية، والبراليدوكسيم يعيد تنشيط الإنزيم.']],
+q:[
+['Which drug is used for urinary retention?',['Pilocarpine','Bethanechol','Physostigmine','Atropine'],1,'Bethanechol stimulates M3 receptors of bladder detrusor.'],
+['Which anticholinesterase crosses the blood-brain barrier and treats atropine poisoning?',['Neostigmine','Pyridostigmine','Physostigmine','Edrophonium'],2,'Physostigmine is a tertiary amine.'],
+['Antidote for organophosphate poisoning:',['Naloxone','Atropine plus pralidoxime','Flumazenil','Protamine'],1,'Atropine blocks muscarinic effects, pralidoxime reactivates AChE.'],
+['Donepezil is mainly used for:',['Glaucoma','Myasthenia gravis','Alzheimer\'s disease','Overactive bladder'],2,'Central AChE inhibitor.'],
+['Cholinergic agonists are contraindicated in:',['Asthma','Hypotension','Dry mouth','Constipation'],0,'They cause bronchoconstriction.']]};
+
+CH[5]={intro:'Cholinergic antagonists block acetylcholine. Antimuscarinics act on M receptors, ganglionic blockers act on neuronal N receptors, and neuromuscular blockers act on muscle N receptors.',
+blocks:[
+['h','Antimuscarinic drugs'],
+['drugs',[
+ ['Atropine','Non-selective antimuscarinic','Bradycardia, organophosphate poisoning, mydriasis, antisecretory','Long-acting in eye'],
+ ['Hyoscine (scopolamine)','Antimuscarinic','Motion sickness (patch), pre-op sedation','Sedation, confusion'],
+ ['Ipratropium, tiotropium','Inhaled antimuscarinic','COPD, asthma','Minimal systemic effect'],
+ ['Oxybutynin, tolterodine, solifenacin','Bladder antimuscarinic','Overactive bladder','Dry mouth, constipation'],
+ ['Tropicamide, cyclopentolate','Eye antimuscarinic','Pupil dilation for eye exams','Short acting'],
+ ['Benztropine, trihexyphenidyl','Central antimuscarinic','Parkinsonism, antipsychotic EPS','Confusion in the elderly'],
+ ['Glycopyrrolate','Quaternary antimuscarinic','Reduce secretions in anaesthesia','No CNS effect'],
+ ['Hyoscine butylbromide','Antispasmodic','Abdominal or biliary colic','Poor CNS entry']]],
+['mn','Atropine toxicity: <b>"Hot as a hare, dry as a bone, red as a beet, blind as a bat, mad as a hatter."</b> Treat with physostigmine in severe cases.'],
+['p','<b>Avoid</b> antimuscarinics in angle-closure glaucoma, benign prostatic hyperplasia (urinary retention), paralytic ileus, and with caution in the elderly.'],
+['h','Neuromuscular blockers'],
+['table',['Group','Drugs','Notes'],[
+ ['Non-depolarising (competitive)','Rocuronium, vecuronium, atracurium, cisatracurium, pancuronium','Reversed by neostigmine (with glycopyrrolate) or sugammadex; cisatracurium suits liver and kidney failure'],
+ ['Depolarising','Succinylcholine','Fast and short; fasciculations first. Risks: hyperkalaemia, malignant hyperthermia, muscle pain']]],
+['p','<b>Malignant hyperthermia</b> (volatile anaesthetics plus succinylcholine) is treated with <b>dantrolene</b>. <b>Sugammadex</b> encapsulates rocuronium and vecuronium for rapid reversal.'],
+['ar','ملحوظة: مضادات الكولين ممنوعة في الجلوكوما ضيقة الزاوية وتضخم البروستاتا. السكسينيل كولين مؤثر قصير وممكن يسبب فرط حرارة خبيث.']],
+q:[
+['A drug for motion sickness:',['Ipratropium','Scopolamine','Tiotropium','Oxybutynin'],1,'Scopolamine is given as a transdermal patch.'],
+['Antimuscarinics should be avoided in:',['Bradycardia','Angle-closure glaucoma','Motion sickness','COPD'],1,'They dilate the pupil and can precipitate acute angle closure.'],
+['Which agent is a depolarising neuromuscular blocker?',['Rocuronium','Succinylcholine','Atracurium','Vecuronium'],1,'Succinylcholine depolarises the motor end plate.'],
+['Treatment of malignant hyperthermia:',['Neostigmine','Dantrolene','Atropine','Sugammadex'],1,'Dantrolene blocks calcium release from the sarcoplasmic reticulum.'],
+['Which is an inhaled anticholinergic used in COPD?',['Salbutamol','Tiotropium','Prednisolone','Montelukast'],1,'Tiotropium is a long-acting antimuscarinic bronchodilator.']]};
+
+CH[6]={intro:'Adrenergic agonists (sympathomimetics) imitate norepinephrine and epinephrine. The key to learning them is the receptor each one prefers.',
+blocks:[
+['svg','dopa','Catecholamine synthesis'],
+['h','Catecholamines: direct agonists'],
+['drugs',[
+ ['Epinephrine (adrenaline)','α1, α2, β1, β2','Anaphylaxis, cardiac arrest, with local anaesthetics, severe asthma','Low dose β effect, high dose α effect'],
+ ['Norepinephrine','α1, β1 (little β2)','Septic and vasodilatory shock','Raises BP, reflex bradycardia'],
+ ['Dopamine','D1, then β1, then α1 (by dose)','Shock, renal perfusion (low dose, limited evidence)','See diagram below'],
+ ['Dobutamine','β1 (mainly)','Acute heart failure, cardiac stress test','Can cause arrhythmias'],
+ ['Isoproterenol (isoprenaline)','β1, β2','Heart block, bradycardia','Vasodilation, tachycardia']]],
+['svg','dosedopa','Dopamine dose effects'],
+['h','Non-catecholamine and selective drugs'],
+['drugs',[
+ ['Phenylephrine','α1','Nasal decongestant, hypotension, eye dilation','Reflex bradycardia'],
+ ['Clonidine','α2 central','Hypertension, opioid withdrawal, ADHD','Rebound hypertension if stopped suddenly'],
+ ['Methyldopa','α2 (via methylnorepinephrine)','Hypertension in pregnancy','Hemolytic anaemia, sedation'],
+ ['Salbutamol (albuterol), terbutaline','β2','Asthma, COPD; terbutaline for preterm labour','Tremor, tachycardia, low potassium'],
+ ['Salmeterol, formoterol','Long-acting β2 (LABA)','Asthma (always with inhaled steroid), COPD','Not for acute relief (salmeterol)'],
+ ['Mirabegron','β3','Overactive bladder','Raises BP'],
+ ['Amphetamine, methylphenidate','Indirect (release NE and dopamine)','ADHD, narcolepsy','Abuse, insomnia, hypertension'],
+ ['Ephedrine, pseudoephedrine','Mixed, indirect','Decongestant, hypotension in anaesthesia','Tachyphylaxis'],
+ ['Cocaine','Blocks reuptake','Local anaesthetic (topical)','Vasoconstriction, arrhythmia']]],
+['p','<b>Epinephrine reversal:</b> if an α blocker is given first, epinephrine can lower BP (β2 vasodilation unmasked). This is a classic exam question.'],
+['ar','ملحوظة: الدوبامين: جرعة قليلة = توسيع أوعية الكلى، متوسطة = قلب، عالية = انقباض أوعية. الأدرينالين هو الاختيار الأول في الصدمة التأقية.']],
+q:[
+['First-line drug in anaphylaxis:',['Norepinephrine','Epinephrine','Dobutamine','Phenylephrine'],1,'IM epinephrine treats bronchospasm, hypotension and angioedema.'],
+['Selective β1 agonist for acute heart failure:',['Dobutamine','Isoproterenol','Terbutaline','Phenylephrine'],0,'Dobutamine increases contractility.'],
+['Antihypertensive suitable in pregnancy:',['Methyldopa','ACE inhibitors','Losartan','Atenolol'],0,'Methyldopa is a long-established choice.'],
+['Which drug is a pure α1 agonist?',['Phenylephrine','Salbutamol','Dopamine','Isoproterenol'],0,'Phenylephrine raises BP by vasoconstriction.'],
+['A side effect of salbutamol:',['Hyperkalaemia','Tremor','Bradycardia','Miosis'],1,'β2 stimulation in skeletal muscle causes tremor; it also lowers potassium.']]};
+
+CH[7]={intro:'Adrenergic antagonists block α or β receptors. β-blockers are among the most prescribed drugs in the world, so this chapter is worth knowing well.',
+blocks:[
+['h','α-blockers'],
+['drugs',[
+ ['Phenoxybenzamine','Irreversible, non-selective α','Pheochromocytoma (pre-op)','Long acting'],
+ ['Phentolamine','Reversible, non-selective α','Pheochromocytoma crisis, extravasation of vasopressors','Short acting'],
+ ['Prazosin, doxazosin, terazosin','α1 selective','Hypertension, BPH','First-dose hypotension: give first dose at bedtime'],
+ ['Tamsulosin, alfuzosin','α1A (prostate) selective','BPH','Retrograde ejaculation; floppy iris syndrome']]],
+['h','β-blockers'],
+['svg','bb','Selective or not?'],
+['drugs',[
+ ['Propranolol','Non-selective','Hypertension, migraine prophylaxis, tremor, thyrotoxicosis, portal hypertension','Avoid in asthma'],
+ ['Atenolol, metoprolol, bisoprolol','β1-selective','Hypertension, angina, post-MI, heart failure (metoprolol succinate, bisoprolol)','Safer than non-selective ones in asthma, but still use caution'],
+ ['Esmolol','β1, ultra-short','Acute SVT, perioperative hypertension','IV infusion only'],
+ ['Carvedilol','β1, β2, α1','Heart failure, hypertension','Vasodilating'],
+ ['Labetalol','β and α1','Hypertension in pregnancy, hypertensive emergency','Fewer reflex effects'],
+ ['Nebivolol','β1 plus nitric oxide release','Hypertension','Less fatigue and ED'],
+ ['Pindolol, acebutolol','Partial agonist (ISA)','Hypertension','Less bradycardia'],
+ ['Timolol','Non-selective','Glaucoma (eye drops)','Can still cause systemic effects'],
+ ['Sotalol','Non-selective plus K⁺ channel block','Arrhythmias','Can cause torsades de pointes']]],
+['h','Adverse effects of β-blockers'],
+['p','Bradycardia and heart block, fatigue, cold extremities, <b>bronchospasm</b> (non-selective in asthma), <b>masking of hypoglycaemia</b> symptoms in diabetes, erectile dysfunction, vivid dreams (lipophilic ones). <b>Abrupt stopping</b> causes rebound tachycardia and angina, so taper.'],
+['mn','β-blocker selectivity: <b>A to M</b> = β1 selective, <b>N to Z</b> = non-selective (with exceptions like carvedilol, labetalol).'],
+['tip','Contraindications: severe asthma, 2nd or 3rd degree heart block, acute decompensated heart failure, severe bradycardia. In pheochromocytoma, give an α-blocker first.'],
+['ar','ملحوظة: حاصرات بيتا ممنوعة في الربو الشديد وبطء القلب الشديد. ما توقفهاش فجأة، ولازم تقليل تدريجي.']],
+q:[
+['A β1-selective blocker:',['Propranolol','Atenolol','Nadolol','Timolol'],1,'A to M rule: atenolol.'],
+['First-dose hypotension is typical of:',['Prazosin','Atenolol','Clonidine','Labetalol'],0,'Postural hypotension after the first α1 blocker dose.'],
+['Best antihypertensive combination step in pheochromocytoma:',['β-blocker alone first','α-blocker first, then β-blocker','Diuretic','ACE inhibitor'],1,'Unopposed α stimulation can cause a hypertensive crisis.'],
+['Tamsulosin is used for:',['Hypertension','BPH','Asthma','Glaucoma'],1,'It relaxes prostate and bladder-neck smooth muscle.'],
+['A β-blocker useful in glaucoma:',['Timolol','Atenolol','Metoprolol','Bisoprolol'],0,'Timolol eye drops lower aqueous humour production.']]};
+</script><script>const $=s=>document.querySelector(s);const app=$('#app');
+const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let done=store.get('done',{}),scores=store.get('scores',{});
+const avail=n=>!!CH[n];
+function strip(h){return h.replace(/<[^>]+>/g,'')}
+function renderHome(){
+ const total=TOC.length,dn=Object.keys(done).length,ready=Object.keys(CH).length;
+ let h=`<section class="hero"><div class="pill">Pharmacology made simple</div><h1>Pharmacology</h1><p>Short explanations, diagrams, drugs grouped by active ingredient, Arabic notes, and review questions for every chapter.</p>
+ <div class="stat"><div><b>${ready}</b><span>chapters ready</span></div><div><b>${total-ready}</b><span>coming next</span></div><div><b>${dn}</b><span>completed</span></div></div></section>
+ <div class="search"><input id="q" type="search" placeholder="Search a drug or topic (e.g. atropine, β-blocker)" autocomplete="off"><div id="res"></div></div>`;
+ PARTS.forEach((p,i)=>{const items=TOC.filter(t=>t[1]===i);
+  h+=`<details class="part" ${i<2?'open':''}><summary><span class="pn">Part ${p.n}</span><span class="pt">${p.t}<small>${p.ar}</small></span></summary>`;
+  items.forEach(t=>{const ok=avail(t[0]);h+=`<a class="chrow ${ok?'':'soon'}" href="#/ch/${t[0]}"><span class="num">${t[0]}</span><span class="nm">${t[2]}<small>Book p. ${t[3]}</small></span>${done[t[0]]?'<span class="ck">✓</span>':ok?'<span class="go">›</span>':'<span class="tag">Soon</span>'}</a>`});
+  h+='</details>'});
+ h+=`<p class="note">Educational use only. This app is a study aid, not medical advice. Check doses and indications against your textbook, formulary or local guidelines. Chapters 8 to 43 are being added in order.</p>`;
+ app.innerHTML=h;
+ $('#q').addEventListener('input',e=>search(e.target.value));
+}
+function search(v){v=v.trim().toLowerCase();const r=$('#res');if(v.length<2){r.innerHTML='';return}
+ const out=[];
+ TOC.forEach(t=>{if(t[2].toLowerCase().includes(v))out.push(`<a href="#/ch/${t[0]}"><b>Ch ${t[0]}</b> ${t[2]}</a>`)});
+ Object.keys(CH).forEach(n=>CH[n].blocks.forEach(b=>{
+  if(b[0]==='drugs')b[1].forEach(d=>{if(strip(d.join(' ')).toLowerCase().includes(v))out.push(`<a href="#/ch/${n}"><b>${strip(d[0])}</b><small>${d[1]} · ${d[2]} · Ch ${n}</small></a>`)});
+  if(b[0]==='table')b[2].forEach(d=>{if(strip(d.join(' ')).toLowerCase().includes(v))out.push(`<a href="#/ch/${n}"><b>${strip(d[0])}</b><small>${strip(d.slice(1).join(' · '))} · Ch ${n}</small></a>`)});
+ }));
+ r.innerHTML=out.slice(0,12).join('')||'<p class="empty">No match yet. More chapters are on the way.</p>'}
+function block(b){switch(b[0]){
+ case 'h':return `<h2>${b[1]}</h2>`;
+ case 'p':return `<p>${b[1]}</p>`;
+ case 'svg':return `<figure>${D[b[1]]}<figcaption>${b[2]}</figcaption></figure>`;
+ case 'tip':return `<div class="box tip"><b>Good to know</b>${b[1]}</div>`;
+ case 'mn':return `<div class="box mn"><b>Memory trick</b>${b[1]}</div>`;
+ case 'ar':return `<div class="box ar" dir="rtl" lang="ar"><b>ملحوظات</b>${b[1]}</div>`;
+ case 'table':return `<div class="tw"><table><thead><tr>${b[1].map(x=>`<th>${x}</th>`).join('')}</tr></thead><tbody>${b[2].map(r=>`<tr>${r.map((c,i)=>`<td data-l="${b[1][i]}">${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+ case 'drugs':return `<div class="drugs">${b[1].map(d=>`<div class="drug"><div class="dn">${d[0]}</div><div class="dc">${d[1]}</div><div class="du"><b>Use:</b> ${d[2]}</div><div class="dx">${d[3]}</div></div>`).join('')}</div>`}}
+function renderCh(n){
+ const t=TOC.find(x=>x[0]===n);if(!t){location.hash='#/';return}
+ const prev=n>1?`<a class="nav" href="#/ch/${n-1}">‹ Chapter ${n-1}</a>`:'<span></span>',next=n<43?`<a class="nav" href="#/ch/${n+1}">Chapter ${n+1} ›</a>`:'<span></span>';
+ let h=`<a class="back" href="#/">‹ Contents</a><div class="chead"><span>Part ${PARTS[t[1]].n} · Chapter ${n} · Book p. ${t[3]}</span><h1>${t[2]}</h1></div>`;
+ const c=CH[n];
+ if(!c){h+=`<div class="soonbox"><div class="big">🚧</div><h2>This chapter is coming next</h2><p>It is on the contents list and will be filled in with the same format: simple explanation, diagrams, drug tables and review questions.</p></div><nav class="navrow">${prev}${next}</nav>`;app.innerHTML=h;window.scrollTo(0,0);return}
+ h+=`<p class="lead">${c.intro}</p>`+c.blocks.map(block).join('');
+ h+=`<h2 class="qh">Review questions</h2><div id="quiz">${c.q.map((q,i)=>`<div class="q" data-i="${i}"><p><b>${i+1}.</b> ${q[0]}</p>${q[1].map((o,j)=>`<button data-j="${j}">${o}</button>`).join('')}<div class="ex"></div></div>`).join('')}<div id="score" class="score">${scores[n]!=null?'Last score: '+scores[n]+' / '+c.q.length:''}</div></div>`;
+ h+=`<button class="donebtn ${done[n]?'on':''}" id="dbtn">${done[n]?'✓ Completed':'Mark chapter as completed'}</button><nav class="navrow">${prev}${next}</nav>`;
+ app.innerHTML=h;window.scrollTo(0,0);
+ let got=0,ans=0;
+ document.querySelectorAll('.q').forEach(qe=>{const q=c.q[+qe.dataset.i];qe.querySelectorAll('button').forEach(bt=>bt.onclick=()=>{
+  if(qe.dataset.d)return;qe.dataset.d=1;ans++;const j=+bt.dataset.j;
+  qe.querySelectorAll('button')[q[2]].classList.add('ok');if(j===q[2])got++;else bt.classList.add('bad');
+  qe.querySelector('.ex').textContent=(j===q[2]?'Correct. ':'Not quite. ')+q[3];
+  if(ans===c.q.length){scores[n]=got;store.set('scores',scores);$('#score').textContent='Score: '+got+' / '+c.q.length}})});
+ $('#dbtn').onclick=()=>{if(done[n])delete done[n];else done[n]=1;store.set('done',done);renderCh(n)};
+}
+function route(){const m=location.hash.match(/^#\/ch\/(\d+)/);if(m)renderCh(+m[1]);else{renderHome();window.scrollTo(0,0)}}
+addEventListener('hashchange',route);route();
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script></body></html>
